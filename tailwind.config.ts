@@ -9,6 +9,10 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
+      fontFamily: {
+        outfit: ['var(--font-outfit)'],
+        handwriting: ['var(--font-handwriting)'],
+      },
       colors: {
         primary: {
           light: '#FFFFFF',

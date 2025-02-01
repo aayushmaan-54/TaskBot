@@ -1,4 +1,3 @@
-import { handwriting } from "../layout";
 import Header from "./header";
 
 
@@ -16,7 +15,7 @@ export default function ToDoListPage() {
       sm:h-[65vh] 
       rotate-2 
       max-[400px]:w-[90vw]
-      ${handwriting.className} 
+      font-handwriting
       flex 
       flex-col
     `}>

@@ -14,14 +14,14 @@ export const metadata: Metadata = {
 };
 
 
-export const outfit = Outfit({
+const outfit = Outfit({
   subsets: ['latin'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   display: 'swap',
   variable: '--font-outfit',
 });
 
-export const handwriting = Reenie_Beanie({
+const handwriting = Reenie_Beanie({
   subsets: ['latin'],
   weight: ['400'],
   display: 'swap',
