@@ -7,7 +7,7 @@ export default function ChatbotWidget({
   isChatbotOpen: boolean;
 }) {
   const [input, setInput] = useState('');
-  const [messages, setMessages] = useState<Array<{ text: string; isBot: boolean }>>([]);
+  const [messages] = useState<Array<{ text: string; isBot: boolean }>>([]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
