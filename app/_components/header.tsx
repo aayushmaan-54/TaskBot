@@ -1,5 +1,5 @@
 import ToggleTheme from "@/components/toggle-theme";
-import { handwriting, outfit } from "../layout";
+import { handwriting } from "../layout";
 
 
 export default function Header() {
